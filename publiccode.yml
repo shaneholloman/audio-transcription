@@ -1,0 +1,60 @@
+publiccodeYmlVersion: 0.5.0
+name: TranscriboZH
+url: https://github.com/machinelearningZH/audio-transcription
+releaseDate: 2024-10-22
+platforms:
+  - windows
+  - linux
+  - mac
+categories:
+  - other
+developmentStatus: stable
+softwareType: standalone/desktop
+intendedAudience:
+  scope:
+    - justice
+    - government
+organisation:
+  uri: https://ld.admin.ch/canton/1
+  name: Zurich
+description:
+  en:
+    localisedName: Transcribo
+    shortDescription: Transcribe any audio or video file. Edit and view your
+      transcripts in a standalone HTML editor.
+    longDescription: TranscriboZH is an open-source tool for transcribing audio and
+      video files, developed by the Canton of Zurich. It uses the
+      state-of-the-art Whisper v3 large model to deliver highly accurate
+      transcriptions, including substantial support for Swiss German, without
+      any licensing or usage fees. The application automatically identifies and
+      distinguishes between different speakers in a recording (speaker
+      diarization) and lets you define custom vocabulary for names or ambiguous
+      terms. Transcripts can be edited directly in an integrated, browser-based
+      editor that stays synchronized with the original audio or video, complete
+      with keyboard shortcuts for efficient navigation. Results can be exported
+      as plain text, SRT subtitle files, or as a standalone HTML file with
+      synchronized playback that requires no installation to view. An optional
+      summarization feature can generate concise summaries of transcripts using
+      a locally run language model. Because the entire transcription pipeline
+      runs on your own infrastructure, TranscriboZH is particularly well suited
+      for processing confidential recordings without sending data to third-party
+      cloud services.
+    documentation: https://github.com/machinelearningZH/audio-transcription/blob/master/README.md
+    features:
+      - LLM
+      - SpeechToText
+      - PWA
+      - Confidential Data Processing
+      - Transcript Editor
+legal:
+  license: MIT
+maintenance:
+  type: internal
+  contacts:
+    - name: Team Data, Amt für Statistik und Daten
+      email: datashop@statistik.zh.ch
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+    - de-CH
